@@ -8,6 +8,19 @@
 
 ---
 
+## 下载安装
+
+到 [Releases](https://github.com/Mac-XK/FridaDump/releases/latest) 下载 `FridaDump-1.0.0.dmg`，双击挂载后把 **FridaDump** 拖进 Applications 目录。
+
+首次打开如果提示「无法验证开发者」：
+
+- 右键点图标 → 打开，或
+- `xattr -dr com.apple.quarantine /Applications/FridaDump.app`
+
+> App 是 ad-hoc 签名（未公证），自用没问题；要分发给别人需要自己的开发者证书重签。
+
+---
+
 ## 功能
 
 ### 1. 砸壳（解密 IPA）
