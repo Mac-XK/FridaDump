@@ -1,0 +1,19 @@
+# macOS / Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# frida-core devkit（体积太大，需自行下载，见 README）
+vendor/
+
+# 砸壳产物
+*.ipa
+Payload/
+
+# 系统
+.DS_Store
+.idea/
+*.swp

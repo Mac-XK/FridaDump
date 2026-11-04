@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct FridaDumpApp: App {
+    init() {
+        HeadlessRunner.runIfRequested()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
